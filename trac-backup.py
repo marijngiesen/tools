@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 TRACADMIN_BIN = "/usr/bin/trac-admin "
 SENDMAIL_BIN  = "/usr/sbin/sendmail"
 SENDMAIL_OPTS = "-t"
-STATUSMAIL_TO = "m.giesen@uci.ru.nl, radict@rad.umcn.nl"
+STATUSMAIL_TO = "your@email.com"
 
 def create_backupdir(backupRoot, project = None):
 	if project is not None:
